@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/cusa"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="USA" />-->
+        <!--<item-->
+            <!--android:id="@+id/caus"-->
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+            <!--android:title="Gallery" />-->
+        <!--<item-->
+            <!--android:id="@+id/cing"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Slideshow" />-->
+        <!--<item-->
+            <!--android:id="@+id/cjapan"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools" />-->
+    <!--</group>-->
+
+    <item android:title="Category">
+        <menu>business entertainment general health science sports technology
+            <item
+                android:id="@+id/business"
+                android:title="Business" />
+                <!--android:icon="@drawable/ic_menu_share"-->
+            <item
+                android:id="@+id/entertainment"
+                android:title="Entertainment" />
+                <!--android:icon="@drawable/ic_menu_send"-->
+            <item
+                android:id="@+id/general"
+                android:title="General" />
+                <!--android:icon="@drawable/ic_menu_send"-->
+            <item
+                android:id="@+id/health"
+                android:title="Health" />
+                <!--android:icon="@drawable/ic_menu_send"-->
+            <item
+                android:id="@+id/science"
+                android:title="Science" />
+            <!--android:icon="@drawable/ic_menu_send"-->
+            <item
+                android:id="@+id/sports"
+                android:title="Sports" />
+            <!--android:icon="@drawable/ic_menu_send"-->
+            <item
+                android:id="@+id/technology"
+                android:title="Technology" />
+            <!--android:icon="@drawable/ic_menu_send"-->
+        </menu>
+    </item>
+
+</menu>
